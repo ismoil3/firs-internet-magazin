@@ -1,0 +1,500 @@
+* {
+  margin: 0;
+}
+.main {
+  /* display: flex; */
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  /* padding: 10px 20px; */
+  background-color: rgba(0, 0, 0, 0.356);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.546);
+  background-color: rgba(0, 0, 0, 0.34);
+}
+.korzinadialog {
+  border: none;
+}
+.show {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.rest {
+  /* width: 800px; */
+  margin: auto;
+  width: 80%;
+  margin-top: 220px;
+  height: 290px;
+  top: 348px;
+  left: 120px;
+  gap: 32px;
+  opacity: 0px;
+
+  color: white;
+  /* font-family: Helvetica', 'Arial', sans-serif'; */
+}
+.Embrace {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+}
+.rest1 {
+  font-family: "Brush Script MT", "Lucida Handwriting", "Cursive", serif;
+  font-size: 48px;
+  font-weight: normal;
+  color: white;
+}
+
+.navv {
+  background-size: cover;
+  width: 99%;
+  height: 100vh;
+
+  background-position: center;
+  background-image: url(https://s3-alpha-sig.figma.com/img/c006/6f4c/b4e3d1753ca503c388370c56c985c7ec?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ovW8wfy95SmtI3tD-eDTFuhgDas5ZhiXgHCXok1q0BRDVt0xN5sZp91~PKBPlj8DIg8iX-dpAgY7T3W2M5-typEUhrzlgDxdH2YlnArJiCadDWfryi16~IXn9DVnSsdJ2WQYyJ0Jt1WXxII-46UPB3xC4zLYwmjyfjAtYBBu1Yn6BIsTC4vavvNaGRqxIVYK9f-QgcKip8OchmVRuFdCrj59UXVz1mPIjArlzm4eZgpeoIBGHK0bS0rOwp1bjNOgmPTuhpHYNpiJlZGYm7lhW4opaImZ7a9c6WLjk28uxvjArRHlKa1mNM9cJUtd1Q-exEKWQhMTt8RBuZXY07x8Eg__);
+}
+.homebtn {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  align-items: center;
+  height: 60px;
+  padding: 10px 20px;
+}
+.btnBasket {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.btnBasket:hover {
+  color: orange;
+  transition: 0.3s;
+  transform: rotate(-15deg);
+}
+
+.homebtn1 {
+  /* margin: auto; */
+
+  height: 60px;
+  padding: 10px 20px;
+}
+
+.comfy {
+  width: 113px;
+  height: 58px;
+  gap: 0px;
+  opacity: 0px;
+}
+.navbtn {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 10px 20px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.Featured {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 24px;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.imgbrend {
+  width: 309px;
+  height: 200px;
+  gap: 0px;
+  opacity: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.block1 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.block1 h2 {
+  color: grey;
+}
+.card {
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 10px;
+}
+.navbtn1 {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #ba5d2c;
+}
+.navbtn:hover {
+  color: grey;
+  transform: scale(1.05);
+  animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+.x {
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 40px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+  border-radius: 10px;
+  width: 50px;
+  z-index: 10000;
+}
+.fa-sharp-duotone {
+  font-size: 30px;
+  color: #0056b3;
+  
+}
+.homebtn1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.obtitle {
+  display: flex;
+  justify-content: space-between;
+}
+.korzinadialog {
+  border: none;
+  height: 100vh;
+  width: 30%;
+}
+.korzinadialog .card {
+  margin: auto;
+  margin-bottom: 40px;
+}
+.card {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.divcount {
+  display: flex;
+  margin: auto;
+  width: 80px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.korzinadialog .card {
+  height: 320px;
+}
+.divcount button {
+  background-color: transparent;
+  border-color: #ba5d2c;
+  color: #ba5d2c;
+  display: flex;
+  align-items: center;
+  width: 28px;
+  text-align: center;
+  font-size: 21px;
+}
+.delete {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 50px;
+  left: 270px;
+  cursor: pointer;
+  color: #ba5d2c;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 0px;
+  width: 0px;
+  font-size: 21px;
+  margin-left: 10px;
+}
+
+.korzinadialog .card {
+  width: 310px;
+  height: 320px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+}
+.btnBasket {
+  position: relative;
+  top: 10px;
+  right: 20px;
+}
+.baglength {
+  position: relative;
+  z-index: 999;
+  right: -30px;
+  top: -50px;
+  color: white;
+  font-size: 10px;
+  background-color: #ba5d2c;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+.admin1 {
+  width: 0px;
+  height: 0px;
+  display: inline;
+  text-decoration: none;
+  color: transparent;
+  cursor: default;
+}
+
+@media (max-width: 1200px) {
+  .leftBlock {
+    width: 15%;
+    padding: 20px 50px;
+  }
+  .rigthBlock {
+    width: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .leftBlock {
+    width: 20%;
+    padding: 20px 20px;
+  }
+  .rigthBlock {
+    width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  .leftBlock {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .rigthBlock {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .navbtn1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav {
+    height: 60px;
+  }
+
+  .nav h1 {
+    font-size: 18px;
+  }
+  .navbtn1 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .btnBasket {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbtn {
+    font-size: 16px;
+  }
+  .homebtn {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .btnBasket {
+    font-size: 20px;
+  }
+  .ppp h1 {
+    font-size: 16px;
+    margin-left: 10%;
+  }
+  .main {
+    display: block;
+    width: 100%;
+  }
+  .comfy {
+    display: none;
+  }
+  .leftBlock {
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: static;
+    margin: auto;
+  }
+  .rigthBlock {
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .homebtn1 {
+    display: flex;
+    align-items: center;
+  }
+  .block1 {
+    display: block;
+  }
+  .navbtn1 {
+    margin-left: -9%;
+  }
+}
+.card {
+  height: 270px;
+}
+.dialog,
+.ok {
+  border: none;
+  height: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.dialog {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  width: 300px;
+}
+
+.ok {
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+}
+
+.pass {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.asa {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  transition: background-color 0.3s;
+}
+.passclose {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+.asa:hover {
+  background-color: #0056b3;
+}
+.ok a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 23px;
+  transition: color 0.3s;
+}
+
+.ok a:hover {
+  color: #0056b3;
+}
+@media (max-width: 480px) {
+  .dialog,
+  .ok {
+    width: 90%;
+  }
+
+  .pass,
+  .asa {
+    width: 100%;
+  }
+}
+.navbtnAllProduct {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  background-color: #ba5d2c;
+  cursor: pointer;
+}
+.nbt {
+  margin: auto;
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+  justify-content: center;
+}
+.navbtn1 {
+  display: flex;
+}

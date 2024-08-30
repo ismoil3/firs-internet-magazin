@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bababa;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbtn {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbtn:hover {
+  color: grey;
+  transform: scale(1.05);
+  animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.homebtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.btnBasket {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 35px;
+  margin-right: 60px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.btnBasket:hover {
+  color: black;
+  transform: rotate(-15deg);
+  animation: rotate 1s ease;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(80deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+.ppp {
+  background-color: #f1f5f8;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.ppp h1 {
+  color: #235275;
+  cursor: pointer;
+  margin-left: 20%;
+  transform: rotate(-10deg);
+}
+.korzinadialog{
+  border: none;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+.korzinadialog{
+  border: none;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.img {
+  width: 612px;
+  height: 433px;
+  gap: 0px;
+  opacity: 0px;
+}
+.about {
+  width: 548px;
+  height: 342px;
+  /* border: 1px solid #250; */
+  opacity: 0px;
+  align-items: center;
+  margin-left: 50px;
+}
+.about h1 ,h2,p{
+margin-bottom: 20px;
+}
+.navbtn1 {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #ba5d2c;
+  position: relative;
+  top: 20px;
+}
+.main{
+  margin-top: 30px;
+}
+
+.x{
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 40px;
+  margin-left: 270px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+  border-radius: 10px;
+  width: 50px;
+
+}
+.obtitle{
+  display: flex;
+  justify-content: space-between;
+}
+.navbtn1 {
+  text-decoration: none;
+  color: white;
+  margin-left: 28%;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  background-color: #ba5d2c;
+}
+
+
+.imgbrend{
+  width: 309px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+
+.korzinadialog{
+  border: none;
+  height: 100vh;
+}
+
+.card{
+  text-align: center;
+  margin-bottom: 30px;
+  /* height: 320px; */
+}
+
+
+.divcount {
+  display: flex;
+  margin: auto;
+  width: 80px;margin-top: 10px;
+  justify-content: space-between;
+}
+.korzinadialog .card{
+  height: 340px;
+}
+.divcount button{
+  background-color: transparent ;
+  border-color: #BA5D2C;
+  color: #BA5D2C;
+  display: flex;
+  align-items: center;
+  width:  28px;
+  text-align: center;
+  font-size: 21px;
+}
+.delete{
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 30px;
+  left: 270px;
+  cursor: pointer;
+  color: #BA5D2C;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 0px;
+  width: 0px;
+  font-size: 21px;
+  margin-left: 10px;
+}
+
+.korzinadialog .card {
+  height: 320px;
+  width: 310px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+}
+.korzinadialog  {
+  width: 325px;
+}
+
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 433px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.slider-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.slider-container img:first-child {
+  display: block;
+}
+.about{
+  
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .leftBlock {
+    width: 15%;
+    padding: 20px 50px;
+  }
+  .rigthBlock {
+    width: 70%;
+  }
+ 
+}
+
+@media (max-width: 992px) {
+  .leftBlock {
+    width: 20%;
+    padding: 20px 20px;
+  }
+  .rigthBlock {
+    width: 75%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .leftBlock {
+    width: 100%;
+    padding: 20px;
+  }
+ 
+  .rigthBlock {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .navbtn1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav {
+    height: 60px;
+    
+  }
+ 
+  .nav h1 {
+    font-size: 18px;
+  }
+  .navbtn1 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .btnBasket {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbtn {
+    font-size: 16px;
+
+  }
+  .homebtn{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+  }
+  .btnBasket {
+    font-size: 20px;
+  }
+  .ppp h1 {
+    font-size: 16px;
+    margin-left: 10%;
+  }
+  .main{
+    display: block;
+    width: 100%;
+  }
+  .comfy{
+    display: none;
+  }
+  .leftBlock{
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: static;
+    margin: auto;
+   
+  }
+  .img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .rigthBlock{
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .homebtn1{
+    display: flex;
+    align-items: center;
+  }
+  .block1{
+    display: block;
+  }
+  .navbtn1 {
+   margin-left:-9%;
+  }
+  
+}
+
+@media (max-width: 400px) {
+  .navbtn {
+    font-size: 16px;
+
+  }
+  .homebtn{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+  }
+  .btnBasket {
+    font-size: 20px;
+  }
+  .ppp h1 {
+    font-size: 16px;
+    margin-left: 10%;
+  }
+  .main{
+    display: block;
+    width: 100%;
+  }
+  .comfy{
+    display: none;
+  }
+  .leftBlock{
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: static;
+    margin: auto;
+   
+  }
+  .rigthBlock{
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .homebtn1{
+    display: flex;
+    align-items: center;
+  }
+  .block1{
+    display: block;
+  }
+  .navbtn1 {
+   margin-left:-9%;
+  }
+  .about{
+   width: 100%;
+   text-align: center;
+  }
+}

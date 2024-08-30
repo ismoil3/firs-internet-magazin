@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/fontawesome-free-6.5.2-web/css/all.css" />
+    <link
+      rel="icon"
+      href="/img/DALL·E 2024-08-27 10.55.18 - A sleek and modern shopping cart icon designed for an online store. The cart is minimalistic with smooth lines, and features a digital element such as.webp"
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="homebtn">
+        <a class="navbtn" href="/index.html">Home</a>
+        <a class="navbtn" href="/products/imdex.html">Products</a>
+        <a class="navbtn" href="/about/index.html">About</a>
+        <img class="comfy" src="/img/comfy (1).png" alt="" />
+      </div>
+      <div class="homebtn1">
+        <button class="btnBasket">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p class="how"></p>
+        </button>
+      </div>
+    </div>
+    <div class="ppp">
+      <h1>Home / Products</h1>
+    </div>
+
+    <div class="main">
+      <div class="leftBlock">
+        <input type="search" class="search" placeholder="Search..." />
+        <h1>Company</h1>
+        <div name="" id="" class="select">
+          <option value="All">All</option>
+        </div>
+        <label for="price-slider"><h1>Price</h1></label>
+        <input type="range" id="price-slider" min="0" max="1000" value="1000" />
+        <p>Value: $<span id="price-value">1000</span></p>
+      </div>
+      <div class="rigthBlock"></div>
+    </div>
+    <dialog class="korzinadialog">
+      <button class="x">x</button>
+      <div class="box"></div>
+      <h2 class="obtitle">Totale: <span class="title">0</span></h2>
+      <button class="navbtn1 navbtn3">Chekout</button>
+    </dialog>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/products/main.js"></script>
+  </body>
+</html>

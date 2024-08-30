@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin page My Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/fontawesome-free-6.5.2-web/css/all.css" />
+    <link
+      rel="icon"
+      href="/img/DALL·E 2024-08-27 10.55.18 - A sleek and modern shopping cart icon designed for an online store. The cart is minimalistic with smooth lines, and features a digital element such as.webp"
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <h1 class="adm">ADMIN PAGE</h1>
+   
+      <button class="btnadd btnAdd">Add</button>
+    </div>
+
+    <div class="main">
+      <div class="leftBlock">
+        <input type="search" class="search" placeholder="Search..." />
+        <select name="" id="" class="select">
+          <option value="All">All</option>
+        </select>
+        <label for="price-slider"><h1>Price</h1></label>
+        <input type="range" id="price-slider" min="0" max="1000" value="1000" />
+        <p>Value: $<span id="price-value">1000</span></p>
+      </div>
+      <div class="rigthBlock"></div>
+    </div>
+    <dialog class="EditDialog">
+      <form action="" class="editForm">
+        <input type="text" name="img" id="" placeholder="url img" />
+        <input type="text" name="name" id="" placeholder="Название товара" />
+        <input type="number" name="price" id="" placeholder="��ена" />
+        <input type="text" name="brend" id="" placeholder="марка" />
+        <input type="text" name="about" id="" placeholder="о вашем товаре">
+        <button type="submit">Добавить</button>
+        <button type="button" class="close">Закрыть</button>
+      </form>
+    </dialog>
+    <dialog class="AddDialog">
+      <form action="" class="AddForm">
+        <input type="text" name="Addimg" id="" placeholder="url img" />
+        <input type="text" name="Addname" id="" placeholder="Название товара" />
+        <input type="number" name="Addprice" id="" placeholder="��ена" />
+        <input type="text" name="Addbrend" id="" placeholder="марка" />
+        <input type="text" name="Addabout" id="" placeholder="о вашем товаре">
+        <button type="submit">Добавить</button>
+        <button type="button" class="edclose">Закрыть</button>
+      </form>
+    </dialog>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/admin/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,439 @@
+* {
+  margin: 0;
+}
+
+.nav {
+  padding: 20px 0;
+  background-color: #bababa;
+  height: 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+}
+
+.nav h1 {
+  display: inline;
+}
+
+.nav button {
+  display: inline;
+}
+
+.navbtn {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbtn:hover {
+  color: grey;
+  transform: scale(1.05);
+  animation: bounce 0.5s ease;
+}
+
+.korzinadialog {
+  border: none;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.homebtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.btnBasket {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 35px;
+  margin-right: 60px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.btnBasket:hover {
+  color: black;
+  transform: rotate(-15deg);
+  animation: rotate 1s ease;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(80deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
+.ppp {
+  background-color: #f1f5f8;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ppp h1 {
+  color: #235275;
+  cursor: pointer;
+  margin-left: 20%;
+  transform: rotate(-10deg);
+}
+
+.main {
+  display: flex;
+}
+
+.leftBlock {
+  width: 10%;
+  line-height: 43px;
+  padding: 30px 100px;
+  position: sticky;
+  top: 70px;
+}
+
+.leftBlock p {
+  font-size: 23px;
+  color: #235275;
+  cursor: pointer;
+}
+
+.imgbrend {
+  width: 310px;
+  height: 200px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.rigthBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 65%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.card {
+  box-shadow: 0px 0px 10px gray;
+  text-align: center;
+  margin-bottom: 30px;
+  height: 278px;
+  width: 310px;
+  border-radius: 3px;
+}
+.card:hover{
+  transform: scale(1.05);
+  transition: 1s;
+  box-shadow: 0px 0px 15px gray;
+}
+
+.btns {
+  position: relative;
+  top: -170px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+.card:hover .btns {
+  display: block;
+}
+.card h1{
+  
+}
+.about {
+  background-color: blue;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.btnadd {
+  background-color: green;
+  padding: 5px 20px;
+  border-radius: 2px;
+  color: white;
+  /* padding: 10px 20px; */
+  /* border-radius: 5px; */
+  border: none;
+  cursor: pointer;
+}
+
+.leftBlock {
+  position: sticky;
+  top: 70px;
+  height: 500px;
+}
+
+.x {
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 40px;
+  margin-left: 270px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+  border-radius: 10px;
+  width: 50px;
+}
+
+.obtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbtn1 {
+  text-decoration: none;
+  color: white;
+  margin-left: 28%;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  background-color: #ba5d2c;
+}
+
+.divcount {
+  display: flex;
+  margin: auto;
+  width: 80px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.korzinadialog .card {
+  height: 320px;
+}
+
+.divcount button {
+  background-color: transparent;
+  border-color: #BA5D2C;
+  color: #BA5D2C;
+  display: flex;
+  align-items: center;
+  width: 28px;
+  text-align: center;
+  font-size: 21px;
+}
+
+.delete {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 50px;
+  left: 270px;
+  cursor: pointer;
+  color: #BA5D2C;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 0;
+  width: 0;
+  font-size: 21px;
+  margin-left: 10px;
+}
+
+.adm {
+  color: white;
+}
+
+.btnAdd {
+  position: absolute;
+  right: 40px;
+}
+
+@media (max-width: 1200px) {
+  .leftBlock {
+    width: 15%;
+    padding: 20px 50px;
+  }
+  .rigthBlock {
+    width: 70%;
+  }
+ 
+}
+
+@media (max-width: 992px) {
+  .leftBlock {
+    width: 20%;
+    padding: 20px 20px;
+  }
+  .rigthBlock {
+    width: 75%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .leftBlock {
+    width: 100%;
+    padding: 20px;
+  }
+ 
+  .rigthBlock {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .navbtn1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav {
+    height: 60px;
+    
+  }
+ 
+  .nav h1 {
+    font-size: 18px;
+  }
+  .navbtn1 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .btnBasket {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbtn {
+    font-size: 16px;
+
+  }
+  .homebtn{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+  }
+  .btnBasket {
+    font-size: 20px;
+  }
+  .ppp h1 {
+    font-size: 16px;
+    margin-left: 10%;
+  }
+  .main{
+    display: block;
+    width: 100%;
+  }
+  .comfy{
+    display: none;
+  }
+  .leftBlock{
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: static;
+    margin: auto;
+   
+  }
+  .rigthBlock{
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bababa;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbtn {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbtn:hover {
+  color: grey;
+  transform: scale(1.05);
+  animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.homebtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.btnBasket {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 35px;
+  margin-right: 60px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.btnBasket:hover {
+  color: black;
+  transform: rotate(-15deg);
+  animation: rotate 1s ease;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(80deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
