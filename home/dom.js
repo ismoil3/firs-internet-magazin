@@ -22,7 +22,7 @@ show.onclick=()=>{
       dialog.close()
     }
     else{
-    alert("kusiocha")
+    alert("your not admin")
     pass.value=""
   }
 }
