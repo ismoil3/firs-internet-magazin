@@ -434,3 +434,20 @@ margin-bottom: 20px;
    text-align: center;
   }
 }
+
+.baglength {
+  position: relative;
+  z-index: 999;
+  right: -30px;
+  top: -50px;
+  color: white;
+  font-size: 10px;
+  background-color: #ba5d2c;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
